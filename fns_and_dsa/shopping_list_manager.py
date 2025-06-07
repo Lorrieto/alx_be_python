@@ -1,6 +1,5 @@
 shopping_list = []
 
-
 def display_menu():
     print("Shopping List Manager")
     print("1. Add Item")
@@ -15,7 +14,7 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            add_item = input("Add an item onto the list: ")
+            add_item = input("Enter the item to add: ")
             shopping_list.append(add_item)
             # Prompt for and add an item
             pass
