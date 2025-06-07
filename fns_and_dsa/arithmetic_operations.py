@@ -1,19 +1,17 @@
 
 def perform_operation(num1, num2, operation):
-    
- match operation:
-     case "add":
+
+    if operation == "add":
          return num1 + num2
          
-     case "subtract":
+    if operation == "subtract":
          return num1 - num2
          
-     case "multiply":
-         return num1 * num2
-         
-     case "divide":
-         
-         division = int(num1 / num2)
-         return division
+    if operation == "multiply":
+        return num1 * num2
+
+    if operation == "divide":
+        divide = int(num1 / num2)
+        return divide
     
     
