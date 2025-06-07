@@ -10,7 +10,7 @@ def perform_operation(num1, num2, operation):
     if operation == "multiply":
         return num1 * num2
 
-    if operation == "divide":
+    elif operation == "divide":
         divide = int(num1 / num2)
         return divide
     
