@@ -10,8 +10,13 @@ def perform_operation(num1, num2, operation):
     if operation == "multiply":
         return num1 * num2
 
-    elif operation == "divide":
-        divide = int(num1 / num2)
-        return divide
+    if operation == "divide" and num2 != 0:
+        return num1 / num2
+    
+    elif operation == "divide" and num2 == 0:
+        
+          return "Can't divide by zero"
+
+
     
     
