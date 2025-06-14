@@ -1,6 +1,6 @@
 
     
-def safe_divide(numerator, denominator):
+def safe_divide(float(numerator), float(denominator)):
     division_= float(numerator/denominator)
     return division_
 
