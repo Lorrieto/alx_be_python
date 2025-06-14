@@ -1,7 +1,7 @@
 
     
-def safe_divide(float(numerator), float(denominator)):
-    division_= float(numerator/denominator)
+def safe_divide(numerator, denominator):
+    division_= float(numerator)/ float(denominator)
     print("The result of the division is", division_)
 
 try:
