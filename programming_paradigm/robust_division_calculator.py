@@ -11,6 +11,6 @@ except ZeroDivisionError:
     print("Error: Cannot divide by zero.")
 
 except ValueEror:
-    ("Please enter a numeric value")
+    ("Error: Please enter numeric values only.")
     
     
