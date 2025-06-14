@@ -8,7 +8,7 @@ try:
     print(" ")
 
 except ZeroDivisionError:
-    print("Cannot divide by zero")
+    print("Error: Cannot divide by zero.")
 
 except ValueEror:
     ("Please enter a numeric value")
