@@ -1,11 +1,13 @@
 
     
 def safe_divide(numerator, denominator):
+    
     division_= float(numerator)/ float(denominator)
     print("The result of the division is", division_)
 
 try:
-    print(" ")
+    pass
+    
 
 except ZeroDivisionError:
     print("Error: Cannot divide by zero.")
