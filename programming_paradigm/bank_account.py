@@ -17,14 +17,14 @@ class BankAccount:
             return False
         
         if amount <= self.account_balance:
-            self.account_balance-= amount
+            self.account_balance-= float(amount)
             return True
         else:
             return False
             
     
     def display_balance(self):
-        print("Current Balance:.2f", self.account_balance)
+        print("Current Balance:$", self.account_balance)
         
 
 
