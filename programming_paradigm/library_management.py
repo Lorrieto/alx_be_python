@@ -1,20 +1,21 @@
 class Book:
-    def __init__(self):     
+    def __init__(self, title, author):     
       self.title = title
       self.author = author
-      __is_checked_out = False
+      self._is_checked_out = False
 
     def check_out_book(self, title):
-        pass
+        self._is_checked_out = True
 
-    def return_book(self, title):
-        self.return_ = remove(Book(title, author))
+    def return_book(self):
+        self.return_ = False
 
     def list_available_books(self):
-        print()
+        return not self._is_checked_out
     
 class Library:
-     __books = []
+    def __init__(self):
+      self._books = []
 
      def add_book(self):
         self.add_ = __books.append(Book())
