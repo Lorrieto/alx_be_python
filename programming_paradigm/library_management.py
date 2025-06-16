@@ -1,5 +1,5 @@
 class Book:
-    def __init__(self,title,author):     
+    def __init__(self):     
       self.title = title
       self.author = author
       __is_checked_out = False
@@ -7,7 +7,7 @@ class Book:
     def check_out_book(self, title):
         pass
 
-    def return_book(self, title, author):
+    def return_book(self, title):
         self.return_ = remove(Book(title, author))
 
     def list_available_books(self):
