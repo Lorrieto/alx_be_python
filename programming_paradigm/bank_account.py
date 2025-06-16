@@ -16,8 +16,8 @@ class BankAccount:
             print("Withdrawal amount must be positive")
             return False
         
-        if self.account_balance <= amount:
-            amount -= self.account_balance
+        if amount >= self.account_balance:
+            self.account_balance-= amount
             return True
         else:
             return False
