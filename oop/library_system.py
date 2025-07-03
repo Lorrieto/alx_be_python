@@ -6,10 +6,11 @@ class Book:
     def __str__(self):
         return f"Title: {self.title}, Author: {self.author}"
 
-
 class EBook(Book):
     def __init___(self,file_size):
+        super().__init___(title)
         self.file_size = file_size
+        
 
 
 class PrintBook(Book):
@@ -24,4 +25,5 @@ class Library(EBook,PrintBook):
     def list_books(self):
         pass
         
-    
+book = Book(Library())
+book.add_book()
