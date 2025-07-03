@@ -3,7 +3,7 @@ import math
 class Shape:
 
     def area(self):
-        "NotImplementedError"
+        g"NotImplementedError"
 
 class Rectangle(Shape):
 
