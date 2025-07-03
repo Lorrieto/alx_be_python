@@ -18,13 +18,14 @@ class PrintBook(Book):
         self.page_count = page_count
 
 class Library(EBook,PrintBook):
-    self.books = []
 
     def add_book(self,book):
+        self.books = []
         self.book = append()
+        
 
     def list_books(self):
         pass
         
-book = Book(Library())
-book.add_book()
+#book = Book(Library())
+#book.add_book()
