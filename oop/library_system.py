@@ -27,5 +27,5 @@ class Library(EBook,PrintBook):
     def list_books(self):
         pass
         
-book = Book(Library(self.title,self.author ))
+book = Book(Library(title,author ))
 book.add_book()
